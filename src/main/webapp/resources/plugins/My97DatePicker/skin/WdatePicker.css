@@ -1,0 +1,30 @@
+.Wdate{
+	outline: none;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    padding: 12px;
+    width: 100%;
+    height: 44px;
+    line-height: 20px;
+	background: #FAFAFA url(datePicker.png) no-repeat right;
+	*margin: 0 -1px;
+	*padding: 0;
+	*line-height: 44px;
+	*text-indent: 12px; 
+    cursor: pointer;
+}
+.Wdate::-ms-clear{display:none;}
+
+
+/* form of validation */
+.tip-wrap{position: relative;}
+.tip-wrap .ico-succes {position: absolute;top: 50%;right: 10px; margin-top: -8px; width: 16px; height: 16px;}
+.tip-wrap .ico-error {position: absolute;top: 50%;right: 10px; margin-top: -8px; width: 16px; height: 16px;}
+.succes, .succes:hover, .succes:focus { border-color: #A2D799; color: #46B034;}
+.error, .error:hover, .error:focus { border-color: #fa5546; color: #fa5546;}
+
+/* .WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}
+.Wdate:focus,.Wdate:hover { border-color: #777; color: #333 } */

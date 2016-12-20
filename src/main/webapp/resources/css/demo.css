@@ -1,0 +1,35 @@
+/* 页头 */
+.layer_banner {
+    height: 190px;
+    background: #393D49;
+}
+
+.layer_banner span.ie6PNG {
+position: absolute;
+width: 912px;
+height: 79px;
+background: url(../images/slide1.jpg) no-repeat;
+top: 30px;
+}
+
+.layer_banner h1 {
+    display: none;
+}
+
+.layer_banner em {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    color: #fff;
+}
+
+.layer_banner em a {
+    color: #fff;
+}
+
+.box {
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
